@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.html{
+    font-size: 62.5%;
+}
+
+body {
+  text-align: center;
+}
+
+.header {
+  color: black;
+  background-color: rgb(196, 192, 231);
+  text-align: center;
+  padding: 2%;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+}
+
+.container {
+  position: sticky;
+  top: 0;
+  background-color: rgb(149, 210, 238);
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.boxes1 {
+    padding: 15px;
+    height: 500px;
+    border: 1px solid rgb(26, 25, 25);
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    color: aliceblue;
+}
+
+.box1 {
+  width: 180px;
+  height: 350px;
+  background-color: rgba(185, 187, 89, 0.527);
+  display: inline-block;
+  margin-right: 60px;
+  text-align: center;
+  line-height: 250px;
+}
+
+.box2 {
+  width: 180px;
+  height: 350px;
+  background-color: rgb(221, 195, 199);
+  display: inline-block;
+  margin-right: 60px;
+  text-align: center;
+  line-height: 250px;
+}
+
+.pink-div {
+  position: absolute;
+  top: 120px;
+  left: 130px;
+}
+
+.img {
+  width: 80px;
+  height: 80px;
+  margin-top: 15px;
+  cursor: pointer;
+
+}
+
+.container-two {
+  background-color: rgb(214, 208, 117);
+  margin-top: 60px;
+  padding: 120px 20px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 90vh;
+}
+.boxes2 {
+  color: aliceblue;
+  margin: 0 auto;
+  padding: 100px;
+  width: 80%;
+  border: 1px solid #111010;
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+}
+
+.box3 {
+  background-color: rgb(143, 211, 216);
+  display: inline-block;
+  text-align: center;
+  width: 180px;
+  height: 250px;
+  position: absolute;
+}
+
+.box-1 {
+  top: 2rem;
+  left: 1rem;
+  z-index: 6;
+}
+.box-2 {
+  top: 6rem;
+  left: 10rem;
+  z-index: 5;
+  background-color: rgb(144, 196, 155);
+}
+.box-3 {
+  top: 8rem;
+  left: 20rem;
+  z-index: 4;
+}
+.box-4 {
+  top: 10rem;
+  left: 30rem;
+  z-index: 3;
+  background-color: rgb(144, 196, 155);
+}
+.box-5 {
+  top: 8rem;
+  left: 40rem;
+  z-index: 2;
+}
+.box-6 {
+  top: 6rem;
+  left: 50rem;
+  z-index: 1;
+  background-color: rgb(144, 196, 155);
+}
+.box-7 {
+  top: 2rem;
+  left: 60rem;
+  z-index: 0;
+}
